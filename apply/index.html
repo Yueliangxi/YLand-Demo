@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>投递简历与方案｜YLAND</title>
+    <meta name="description" content="选择你最想参与的方向，在线上传简历与方案，加入 YLAND。" />
+    <link rel="canonical" href="https://yueliangxi.github.io/YLand/apply/" />
+    <link rel="icon" href="/YLand-Demo/favicon.svg" />
+    <link rel="stylesheet" href="/YLand-Demo/styles.css?v=20261013-2" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">跳到主要内容</a>
+    <header class="site-header">
+      <a class="wordmark" href="/YLand-Demo/" aria-label="YLAND 首页">YLAND</a>
+      <nav aria-label="主要导航"><a href="/YLand-Demo/#directions">建设方向</a><a class="nav-optional" href="/YLand-Demo/#proposal">方案要求</a><a href="/YLand-Demo/">返回首页</a></nav>
+    </header>
+    <main id="main">
+      <section class="page-hero">
+        <p class="eyebrow">加入我们</p>
+        <h1>投递简历与方案</h1>
+        <p class="detail-summary">选择你最想参与、或最有想法的方向，上传简历。如果你已经有思路，可以一并附上方案。</p>
+      </section>
+
+      <section class="apply-section" aria-labelledby="apply-title">
+        <aside class="apply-aside">
+          <p class="section-number">投递说明</p>
+          <h2 id="apply-title">简历必填，方案可选。</h2>
+          <p>一份好的方案能让我们更快了解你的判断。方案建议覆盖以下内容：</p>
+          <ol>
+            <li>你对目标、用户和业务重点的理解</li>
+            <li>推荐方案、关键假设与选择理由</li>
+            <li>方案相较其他可行方案的优势</li>
+            <li>最小版本与分阶段实施计划</li>
+            <li>安全、隐私、合规与运营风险</li>
+            <li>预计时间、人员投入与工作量</li>
+          </ol>
+          <p class="aside-mail">也可以直接发送邮件至 <a href="mailto:zhangyzhsh@gmail.com">zhangyzhsh@gmail.com</a></p>
+        </aside>
+
+        <form class="apply-form" id="apply-form" novalidate>
+          <div class="form-grid">
+            <div class="form-field">
+              <label for="f-name">姓名 <span class="req" aria-hidden="true">*</span></label>
+              <input id="f-name" name="name" type="text" autocomplete="name" required />
+            </div>
+            <div class="form-field">
+              <label for="f-email">邮箱 <span class="req" aria-hidden="true">*</span></label>
+              <input id="f-email" name="email" type="email" autocomplete="email" required />
+            </div>
+            <div class="form-field">
+              <label for="f-contact">手机或微信 <span class="hint">（选填）</span></label>
+              <input id="f-contact" name="contact" type="text" autocomplete="tel" />
+            </div>
+            <div class="form-field">
+              <label for="f-location">所在地 <span class="req" aria-hidden="true">*</span></label>
+              <select id="f-location" name="location" required>
+                <option value="">请选择</option>
+                <option>中国大陆</option>
+                <option>中国香港</option>
+                <option>其他地区</option>
+              </select>
+            </div>
+
+            <fieldset class="form-field full">
+              <legend>意向方向 <span class="req" aria-hidden="true">*</span> <span class="hint">（可多选）</span></legend>
+              <div class="choice-chips">
+                <label><input type="checkbox" name="direction" value="YStore" /><span>YStore 商城与创作生态</span></label>
+                <label><input type="checkbox" name="direction" value="Ledger" /><span>YLand Ledger 经营数据与公开验证</span></label>
+                <label><input type="checkbox" name="direction" value="YDA" /><span>YDA 数字价值与结算</span></label>
+                <label><input type="checkbox" name="direction" value="Markets" /><span>交易系统与项目资产</span></label>
+              </div>
+            </fieldset>
+
+            <div class="form-field full">
+              <label for="f-resume">简历 <span class="req" aria-hidden="true">*</span></label>
+              <div class="file-drop">
+                <span class="file-icon" aria-hidden="true">↑</span>
+                <span><span class="file-name" data-empty="点击选择或拖入简历文件">点击选择或拖入简历文件</span><span class="hint">PDF、DOC、DOCX，不超过 10MB</span></span>
+                <input id="f-resume" name="resume" type="file" accept=".pdf,.doc,.docx" required />
+              </div>
+            </div>
+            <div class="form-field full">
+              <label for="f-proposal">方案 <span class="hint">（选填）</span></label>
+              <div class="file-drop">
+                <span class="file-icon" aria-hidden="true">↑</span>
+                <span><span class="file-name" data-empty="点击选择或拖入方案文件">点击选择或拖入方案文件</span><span class="hint">PDF、DOC、DOCX、PPT、PPTX，不超过 10MB</span></span>
+                <input id="f-proposal" name="proposal" type="file" accept=".pdf,.doc,.docx,.ppt,.pptx" />
+              </div>
+            </div>
+
+            <div class="form-field full">
+              <label for="f-message">补充说明 <span class="hint">（选填）</span></label>
+              <textarea id="f-message" name="message" placeholder="例如：最想解决的问题、可开始时间、作品或代码链接"></textarea>
+            </div>
+
+            <label class="consent form-field full">
+              <input type="checkbox" name="consent" required />
+              <span>我同意 YLAND 为招聘与方案评估的目的收集并使用我提交的个人信息和文件。</span>
+            </label>
+          </div>
+
+          <div class="form-actions">
+            <button class="button" type="submit">提交投递 <span aria-hidden="true">→</span></button>
+            <span class="hint">带 <span class="req">*</span> 的为必填项</span>
+          </div>
+          <p class="form-status" id="form-status" role="status" hidden></p>
+        </form>
+      </section>
+    </main>
+    <footer><span>YLAND</span><p>让优秀的产品被发现，让真实的经营被记录，让长期的价值被验证。</p></footer>
+    <script src="/YLand-Demo/apply/apply.js?v=20261013-1"></script>
+  </body>
+</html>
