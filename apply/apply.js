@@ -35,6 +35,6 @@
       return;
     }
     // The submission endpoint is not connected yet; nothing leaves the browser.
-    showStatus("在线投递即将开放。目前请将简历与方案发送至 zhangyzhsh@gmail.com。", false);
+    showStatus("在线投递即将开放，请稍后再提交。", false);
   });
 })();
