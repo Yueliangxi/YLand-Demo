@@ -3,3 +3,4 @@
 
 # Preserve generated assets and React payload byte lengths across platforms.
 home-v1/** -text
+home-v2/** -text
