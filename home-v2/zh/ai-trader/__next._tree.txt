@@ -1,6 +1,0 @@
-:HL["/YLand-Demo/home-v2/_next/static/chunks/08lvle48d8dw3.css","style"]
-:HL["/YLand-Demo/home-v2/_next/static/media/07c7676b89ed2778-s.p.2bn3s6zvc0dyp.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-3:[["children",{"s":"__PAGE__","h":160}]]
-2:[["children",{"s":{"n":"slug","t":"d","k":"ai-trader","s":["1yda-go","v2"]},"h":65632,"c":"$Q3"}]]
-1:[["children",{"s":{"n":"lang","t":"d","k":"zh","s":[]},"h":196720,"c":"$Q2"}]]
-0:{"b":"-z-r1Uq97I-8rv3RZaF1E","t":{"t":{"s":"","h":131152,"c":"$Q1"}}}

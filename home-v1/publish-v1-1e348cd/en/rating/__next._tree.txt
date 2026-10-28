@@ -1,0 +1,6 @@
+:HL["/YLand-Demo/home-v1/_next/static/chunks/2fwswbcn-5h50.css","style"]
+:HL["/YLand-Demo/home-v1/_next/static/media/07c7676b89ed2778-s.p.2bn3s6zvc0dyp.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+3:[["children",{"s":"__PAGE__","h":160}]]
+2:[["children",{"s":{"n":"slug","t":"d","k":"rating","s":["1yda-go","v2"]},"h":65632,"c":"$Q3"}]]
+1:[["children",{"s":{"n":"lang","t":"d","k":"en","s":[]},"h":196720,"c":"$Q2"}]]
+0:{"b":"IJsGaAveR8DVQXl7cZr7K","t":{"t":{"s":"","h":131152,"c":"$Q1"}}}
